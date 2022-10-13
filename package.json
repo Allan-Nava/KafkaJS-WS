@@ -1,10 +1,23 @@
 {
   "name": "kafkajs-ws",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "KafkaJS node.js realtime framework server",
+  "main": "./dist/index.js",
   "scripts": {
+    "compile": "rimraf ./dist && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist/",
+    "client-dist/",
+    "wrapper.mjs",
+    "!**/*.tsbuildinfo"
+  ],
+  "directories": {
+    "doc": "docs/",
+    "example": "example/",
+    "lib": "lib/",
+    "test": "test/"
   },
   "repository": {
     "type": "git",
