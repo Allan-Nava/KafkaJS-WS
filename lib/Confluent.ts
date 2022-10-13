@@ -31,10 +31,11 @@ export class Confluent {
    * @returns a KafkaJS Object
    */
   create(client: string) {
-    const sasl: SASLOptions =
+    /*const sasl: SASLOptions =
       this.key && this.secret
         ? { username: this.key, password: this.secret, mechanism: "plain" }
-        : null;
+        : null;*/
+    const sasl: SASLOptions = { username: this.key, password: this.secret, mechanism: "plain" }
     const ssl = !!sasl;
 
     return new Kafka({
