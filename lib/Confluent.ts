@@ -2,7 +2,7 @@
  * Created on Thu Oct 13 2022
  * Updated on Thu Oct 13 2022
  *
- * [ Allan Nava ] 
+ * [ Allan Nava ]
  * Copyright (©)  2022 HiWay Media SRL
  */
 import { Kafka, SASLOptions } from "kafkajs";
@@ -35,7 +35,11 @@ export class Confluent {
       this.key && this.secret
         ? { username: this.key, password: this.secret, mechanism: "plain" }
         : null;*/
-    const sasl: SASLOptions = { username: this.key, password: this.secret, mechanism: "plain" }
+    const sasl: SASLOptions = {
+      username: this.key,
+      password: this.secret,
+      mechanism: "plain",
+    };
     const ssl = !!sasl;
 
     return new Kafka({
