@@ -1,0 +1,28 @@
+{
+  "name": "kafkajs-ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Allan-Nava/KafkaJS-WS.git"
+  },
+  "keywords": [
+    "realtime",
+    "framework",
+    "websocket",
+    "tcp",
+    "events",
+    "socket",
+    "io"
+  ],
+  "author": "allan <allan.nava@hiway.media>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Allan-Nava/KafkaJS-WS/issues"
+  },
+  "homepage": "https://github.com/Allan-Nava/KafkaJS-WS#readme"
+}
