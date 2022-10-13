@@ -37,5 +37,9 @@
   "bugs": {
     "url": "https://github.com/Allan-Nava/KafkaJS-WS/issues"
   },
-  "homepage": "https://github.com/Allan-Nava/KafkaJS-WS#readme"
+  "homepage": "https://github.com/Allan-Nava/KafkaJS-WS#readme",
+  "dependencies": {
+    "kafkajs": "^2.2.0",
+    "socket.io": "^4.5.2"
+  }
 }
