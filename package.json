@@ -1,11 +1,16 @@
 {
   "name": "kafkajs-ws",
   "version": "1.0.0",
-  "description": "KafkaJS node.js realtime framework server",
-  "main": "./dist/index.js",
+  "description": "KafkaJS TS - node.js realtime framework server",
+  "main": "./dist/index.ts",
   "scripts": {
     "compile": "rimraf ./dist && tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run format:check && npm run compile && npm run test:types && npm run test:unit",
+    "test:types": "tsd",
+    "test:unit": "nyc mocha --require ts-node/register --reporter spec --slow 200 --bail --timeout 10000 test/index.ts",
+    "format:check": "prettier --check \"lib/**/*.ts\" \"test/**/*.ts\"",
+    "format:fix": "prettier --write \"lib/**/*.ts\" \"test/**/*.ts\"",
+    "prepack": "npm run compile"
   },
   "files": [
     "dist/",
