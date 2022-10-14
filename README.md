@@ -1,4 +1,5 @@
 # Kafka JS WS
+[![Run on Repl.it](https://repl.it/badge/github/Allan-Nava/KafkaJS-WS)](https://repl.it/github/Allan-Nava/KafkaJS-WS)
 
 ### About the project
 
