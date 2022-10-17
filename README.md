@@ -7,7 +7,7 @@ KafkaJS WS is a modern [Apache Kafka](https://kafka.apache.org/) client for Node
 
 Kafka is a registered trademark of The Apache Software Foundation and has been licensed for use by KafkaJS. KafkaJS has no affiliation with and is not endorsed by The Apache Software Foundation.
 
-### Features
+### Features
 
 It use Socket.IO, it consists of:
 
