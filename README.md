@@ -17,4 +17,5 @@ It use Socket.IO, it consists of:
 
 ### Documentation
 
-Please see the documnetation here
+Please see the documnetation [here](https://allan-nava.github.io/KafkaJS-WS/)
+
