@@ -16,7 +16,7 @@ remote_theme: pmarsceill/just-the-docs
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Kafka JS WS Docs
-description: EVO documentation
+description: Kafka JS WebSocket official documentation
 #baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
 url: "https://allan-nava.github.io/KafkaJS-WS/" # the base hostname & protocol for your site, e.g. http://example.com
 
