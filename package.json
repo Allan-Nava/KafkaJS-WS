@@ -1,6 +1,6 @@
 {
   "name": "kafkajs-ws",
-  "version": "1.0.22",
+  "version": "1.0.3",
   "description": "KafkaJS TS - node.js realtime framework server",
   "main": "./dist/index.ts",
   "scripts": {
@@ -53,9 +53,6 @@
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
     "tsd": "^0.21.0"
-  },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
   },
   "contributors": [
     {
