@@ -1,5 +1,5 @@
 #theme: "just-the-docs"
-color_scheme: "dark"
+#color_scheme: "dark"
 color_scheme: dark
 remote_theme: pmarsceill/just-the-docs
 # Welcome to Jekyll!
