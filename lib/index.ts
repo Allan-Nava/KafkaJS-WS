@@ -12,8 +12,6 @@ export { Confluent } from "./Confluent";
 module.exports = {
     Confluent,
     Consumer,
-    Subject,
-    TranslationsProvider,
-    useTranslationContext,
+    Subject
 }
 //
