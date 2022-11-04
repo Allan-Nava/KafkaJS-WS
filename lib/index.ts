@@ -8,3 +8,12 @@
 export { Consumer } from "./Consumer";
 export { Subject } from "./Subject";
 export { Confluent } from "./Confluent";
+//
+module.exports = {
+    Confluent,
+    Consumer,
+    Subject,
+    TranslationsProvider,
+    useTranslationContext,
+}
+//

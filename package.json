@@ -1,6 +1,6 @@
 {
   "name": "kafkajs-ws",
-  "version": "1.0.3",
+  "version": "1.0.31",
   "description": "KafkaJS TS - node.js realtime framework server",
   "main": "./dist/index.ts",
   "scripts": {
