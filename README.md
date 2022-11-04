@@ -1,5 +1,6 @@
 # Kafka JS WS
 [![Run on Repl.it](https://repl.it/badge/github/Allan-Nava/KafkaJS-WS)](https://repl.it/github/Allan-Nava/KafkaJS-WS)
+[![Publish Package to npmjs](https://github.com/Allan-Nava/KafkaJS-WS/actions/workflows/npm.yml/badge.svg)](https://github.com/Allan-Nava/KafkaJS-WS/actions/workflows/npm.yml)
 
 ### About the project
 
