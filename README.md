@@ -16,6 +16,35 @@ It use Socket.IO, it consists of:
 - a Javascript client library for the browser (or a Node.js client)
 
 
+### Example Usage
+
+```javascript
+
+import { Confluent, Consumer, Subject } from "kafkajs-ws";
+
+const io = new Server(res.socket.server, {
+    cors: {
+      origin: "*",
+      methods: ["GET", "POST"],
+      credentials: true
+    },
+});
+
+const kafka = new Confluent(
+    "",
+    "",
+    KAFKA_BROKERS as string[],
+  ).create("client-id");
+
+const groupId = "test-consumer-group-" + randomBytes(16).toString("base64");
+const kafkaConsumer = kafka.consumer({ groupId: groupId });
+const kafkaSocksConsumer = new Consumer(kafkaConsumer, 'consumer_topic', 'event_name');
+const kafkaSocksSubject = new Subject(io, '');
+kafkaSocksSubject.add(kafkaSocksConsumer);
+kafkaSocksSubject.connect();
+//
+```
+
 ### Documentation
 
 Please see the documnetation [here](https://allan-nava.github.io/KafkaJS-WS/)
