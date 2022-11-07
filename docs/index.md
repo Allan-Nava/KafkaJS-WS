@@ -24,6 +24,7 @@ Kafka is a registered trademark of The Apache Software Foundation and has been l
 ```javascript
 
 import { Confluent, Consumer, Subject } from "kafkajs-ws";
+import { randomBytes } from "crypto";
 
 const io = new Server(res.socket.server, {
     cors: {

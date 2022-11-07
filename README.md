@@ -21,6 +21,7 @@ It use Socket.IO, it consists of:
 ```javascript
 
 import { Confluent, Consumer, Subject } from "kafkajs-ws";
+import { randomBytes } from "crypto";
 
 const io = new Server(res.socket.server, {
     cors: {
